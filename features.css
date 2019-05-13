@@ -1,1 +1,44 @@
-/*  */
+header {
+  background-color: white;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 45%;
+}
+
+img {
+  height: 200px;
+}
+
+.fa-star {
+  color: rgb(255, 204, 0);
+}
+
+article {
+  width: 500px;
+  margin: 0 0 5% 10%;
+}
+
+.bars {
+  position: absolute;
+  top: 25%;
+  right: 10%;
+  display: flex;
+  align-items: center;
+}
+
+.red-bar {
+  content: '';
+  background-color: red;
+  height: 400px;
+  width: 35px;
+  margin-right: 10px;
+}
+
+.blue-bar {
+  content: '';
+  background-color: blue;
+  height: 500px;
+  width: 35px;
+}
