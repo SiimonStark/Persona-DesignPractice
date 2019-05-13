@@ -21,6 +21,10 @@ li{
   font-size: 20px;
 }
 
+li:hover{
+  color: gray;
+}
+
 .icons{
   height: 30px;
   display: inline;
@@ -64,4 +68,29 @@ grid-template-columns: 1fr 500px 1fr
   height: 60px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.Mobile {
+  visibility: hidden;
+}
+
+@media screen and (max-width: 992px) {
+  .Mobile {
+    visibility: visible;
+  }
+  .arrow {
+    visibility: hidden;
+  }
+  .Rewards {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: rgb(239, 167, 168);
+    border-radius: 40px;
+    border: 3px solid darkgray;
+    box-shadow: 2px 2px 15px black;
+  }
+  .fa-star {
+    color: rgb(255, 204, 0);
+  }
 }
