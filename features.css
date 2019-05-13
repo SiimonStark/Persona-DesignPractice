@@ -1,6 +1,17 @@
+html {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 15vh 85vh;
+  grid-template-areas: "header" "main";
+}
+
 header {
+  position: relative;
+  grid-area: header;
   background-color: white;
-  height: 15%;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -8,11 +19,29 @@ header {
 }
 
 img {
-  height: 200px;
+  height: 150px;
+}
+
+main {
+  position: relative;
+  grid-area: main;
+  width: 100%;
+  height: 85vh;
+  padding-top: 40px;
+  background: url('./background.png');
+  background-size: cover;
 }
 
 .fa-star {
   color: rgb(255, 204, 0);
+}
+
+.fa-running {
+  color: gray;
+}
+
+.fa-bell {
+  color: green;
 }
 
 article {
@@ -22,7 +51,7 @@ article {
 
 .bars {
   position: absolute;
-  top: 25%;
+  top: 15%;
   right: 10%;
   display: flex;
   align-items: center;
