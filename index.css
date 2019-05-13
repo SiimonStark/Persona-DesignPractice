@@ -1,1 +1,23 @@
-/*  */
+img{
+  height: 200px;
+  float:right;
+}
+
+h1{
+  display: inline;
+}
+
+li{
+  display: inline;
+}
+
+.icons{
+  height: 50px;
+  display: inline;
+}
+
+.profile{
+  height: 200px;
+  width: 150px;
+  border-radius: 200px;
+}
