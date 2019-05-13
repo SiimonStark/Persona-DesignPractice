@@ -2,15 +2,23 @@ img{
   height: 200px;
 }
 
+body{
+  background-image: url('./background.png');
+  background-repeat: no-repeat;
+}
+
 h1{
   display: inline;
+  text-align: center;
+  margin-right: 250px;
+  margin-left: 250px;
 }
 
 li{
   display: inline;
   text-align: center;
   padding-bottom: 10px;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .icons{
@@ -18,17 +26,27 @@ li{
   display: inline;
 }
 
-.profile{
+.profile-pic{
   height: 200px;
   border-radius: 200px;
 }
 
 .nav{
   display: grid;
-  grid-template-columns: repeat(4, 1fr)
+  grid-template-columns: repeat(5, 1fr);
+  background-color: pink;
+  border-right: 50px;
 }
 
 .logo{
     float:right;
+    height: 80px;
+    margin: 10px;
 
+}
+
+.profile{
+display: flex;
+justify-content: center;
+adj
 }
