@@ -9,9 +9,9 @@ body{
 
 h1{
   display: inline;
-  text-align: center;
-  margin-right: 250px;
-  margin-left: 250px;
+  text-align: justify;
+  font-size: 45px;
+  margin-top: 5px;
 }
 
 li{
@@ -27,26 +27,41 @@ li{
 }
 
 .profile-pic{
-  height: 200px;
+  height: 400px;
   border-radius: 200px;
+  margin-left: 99px;
+  margin-right: 99px;
 }
 
 .nav{
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  background-color: pink;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: #95dbcf;
   border-right: 50px;
+  color: white;
+  padding: 10px;
 }
 
 .logo{
-    float:right;
-    height: 80px;
-    margin: 10px;
+  float:right;
+  height: 80px;
+  margin: 10px;
 
 }
 
 .profile{
-display: flex;
-justify-content: center;
-adj
+display: grid;
+grid-template-columns: 1fr 500px 1fr
+}
+
+.bio{
+  display: grid;
+  grid-template-rows: 100px 1fr 60px;
+  justify-items: center;
+}
+
+.arrow{
+  height: 60px;
+  margin-right: auto;
+  margin-left: auto;
 }
